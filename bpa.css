@@ -1,0 +1,61 @@
+/*
+ * BPA: Bio-Friendly House Project Stylesheet
+ * HTML Document Author: Dwight Collins
+ * Stylesheet Author: Travis Andre
+ * JavaScript Programer: Colton Adkins
+ * Researcher: Emily Nagel
+ * 
+ * Filename: bpa.css
+ * Created: October 25, 2019
+ * Scioto County Career Technical Center Information Technology BPA Web Design Team
+ */
+body {
+    background-color: #CABDAF; 
+}
+
+#header {
+    min-width: 100%;
+    min-height: 30%;
+    background-color: darkolivegreen;
+    border-bottom: 5px solid;
+    border-color: chocolate;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    font-family: headerFont;
+    color: white;
+    text-align: center;
+    font-size: 5em;
+}
+
+#content {
+    background-color: #CABDAF;
+}
+
+#footer {
+      min-width: 100%;
+    min-height: 10%;
+    background-color: darkolivegreen;
+    border-top: 5px solid;
+    border-color: chocolate;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#btns {
+    background-color: chocolate;
+    color: white;
+    border: none;
+    min-width: 15%;
+    min-height: inherit;
+    font-size: .2em;
+    border: 1px solid black;
+}
+
+@font-face {
+    font-family: 'headerFont';
+    src: url('LeafyStencil.ttf');  
+}
